@@ -45,7 +45,11 @@
 ## Vorhandene Ausstattung
 - **3D-Drucker** ist vorhanden: `[OFFEN: Modell, Bauraum in mm, Düse]`, Material: `[OFFEN: PLA / PETG]`.
   Alle Halterungen und Befestigungen im Rahmen sollen damit **selbst gedruckt** werden.
-- Werkzeug: `[OFFEN: z. B. Schraubendreher-Set, Akkuschrauber, Heißklebepistole, Lötkolben ja/nein]`
+- Werkzeug vorhanden: **Schraubendreher (ausreichend)**.
+- Kann ich **bei Bedarf ausleihen oder kaufen**: **Heißklebepistole** und **Lötkolben**.
+  → Plane so, dass beides **möglichst nicht** nötig ist. Wenn doch, sag mir klar,
+  **ab welchem Schritt** ich es brauche, und empfiehl ein günstiges Einsteiger-Modell
+  (inkl. Zubehör wie Lötzinn, Ablage) mit Bezugsquelle.
 
 ## Eckdaten
 - **Strom:** Phase 1 über USB-C-Kabel. Phase 2 Akku. Die Teileauswahl muss Phase 2 schon
