@@ -39,9 +39,13 @@
   - "Gib mir den Link zum Livestream."
   - "Spiel einen Warnton ab."
   - "Wie ist der Status (Strom, WLAN, Speicher)?"
-- **Nur für den privaten Einsatz in meinem Haushalt** – kein Verkauf, keine Weitergabe.
-  → Keine Zertifizierung, keine Mehrbenutzer-/Kundenverwaltung, keine Datenschutz-Texte nötig.
-  Lieber **einfach und robust** als "produktreif".
+- **Jetzt: privater Einsatz in meinem Haushalt** – keine Zertifizierung, keine
+  Kundenverwaltung, keine Datenschutz-Texte nötig. Lieber **einfach und robust** als "produktreif".
+- **Später:** evtl. ein paar Exemplare für **Freunde**, langfristig Fertigung durch einen
+  **Hersteller in großer Stückzahl** (eigene Etappe 4).
+  → Triff Entscheidungen so, dass dieser Weg **nicht verbaut** wird (z. B. gängige, langfristig
+  lieferbare Bauteile, deren Chip es auch als einzelnes Modul für eine eigene Platine gibt;
+  nachbaubare Anleitung; mehrere Geräte im Code vorgesehen). Kurz begründen, wo das relevant ist.
 - Steuerung **lokal (Heimnetz)** und **von unterwegs** (z. B. Claude auf dem Handy).
 
 ## Vorhandene Ausstattung
