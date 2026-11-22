@@ -51,6 +51,16 @@
   **ab welchem Schritt** ich es brauche, und empfiehl ein günstiges Einsteiger-Modell
   (inkl. Zubehör wie Lötzinn, Ablage) mit Bezugsquelle.
 
+## Aufnahme-Kontrollleuchte (LED)
+- Eine **sichtbare LED in der Front** zeigt an, ob die Kamera gerade **aufnimmt oder streamt**.
+- Bevorzugt **eine RGB-LED** (z. B. steckbares Grove-/WS2812-Modul), die auch den Gerätestatus
+  anzeigt (startet, WLAN-Problem, scharf geschaltet …). Farbschema als Tabelle.
+- **Später entfernbar:** per **Stecker** abziehbar (kein Löten) **und** per Software/MCP
+  abschaltbar bzw. dimmbar. Für das Frontloch eine **druckbare Blindkappe** vorsehen.
+- Nicht direkt neben das Kameraobjektiv setzen (Lichtreflexe im Bild).
+- Für die Produktversion: Standard = **an** (Transparenz/Datenschutz); weise mich darauf hin,
+  was beim Abschalten rechtlich zu beachten ist.
+
 ## Eckdaten
 - **Strom:** Phase 1 über USB-C-Kabel. Phase 2 Akku. Die Teileauswahl muss Phase 2 schon
   berücksichtigen (Umstieg ohne Neuaufbau, idealerweise nur Akku anstecken).

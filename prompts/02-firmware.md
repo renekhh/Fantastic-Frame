@@ -17,7 +17,8 @@ Schreibe die komplette Firmware für die in Etappe 1 gewählte Hardware – so, 
     fertigem SD-Karten-Image (bei Raspberry Pi).
 - **WLAN-Einrichtung ohne Code**: Gerät öffnet beim ersten Start ein eigenes WLAN
   (Captive Portal) oder per Bluetooth/App – ich wähle mein WLAN und gebe das Passwort ein.
-- **Status-LED** und **Töne** zeigen, was das Gerät gerade tut (Tabelle: Blinkmuster → Bedeutung).
+- **Status-/Aufnahme-LED** und **Töne** zeigen, was das Gerät gerade tut (Tabelle: Farbe/Blinkmuster → Bedeutung).
+  Die LED leuchtet bei jeder Aufnahme und jedem Stream; per Konfiguration abschalt- und dimmbar.
 - Reset auf Werkseinstellungen per Taster.
 
 ## Funktionen

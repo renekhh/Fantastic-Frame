@@ -54,7 +54,7 @@ gedruckten Halterungen** befestigt.
 
 **Konstruktion der Druckteile**
 - Halterungen für: Hauptplatine, Kamera (exakt hinter dem Frontloch ausgerichtet),
-  Bewegungssensor (PIR), Lautsprecher, Kabelführung/Zugentlastung, USB-C-Buchse,
+  Bewegungssensor (PIR), Aufnahme-LED (+ Blindkappe fürs Frontloch), Lautsprecher, Kabelführung/Zugentlastung, USB-C-Buchse,
   später Akku. Gern als **eine Grundplatte (Montageplatte)**, auf der alles sitzt und die
   als Ganzes in den Rahmen geschraubt/geklemmt wird – wenn der Bauraum das erlaubt.
 - Befestigung der Elektronik in den Halterungen **ohne Spezialwerkzeug**:

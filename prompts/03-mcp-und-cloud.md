@@ -38,7 +38,7 @@ so dass Claude (Desktop, Web, Handy) die Kamera steuern kann.
 | `get_event_image(event_id)` | Bild zu einem Ereignis |
 | `arm(device_id)` / `disarm(device_id)` | Überwachung an/aus |
 | `play_sound(device_id, sound)` | "alarm" \| "chime" \| "beep" |
-| `set_config(device_id, …)` | Empfindlichkeit, Speicherdauer, Zeitpläne |
+| `set_config(device_id, …)` | Empfindlichkeit, Speicherdauer, Zeitpläne, Aufnahme-LED an/aus/Helligkeit |
 
 Klare Tool-Beschreibungen, damit Claude sie richtig nutzt; Fehlerbehandlung wenn das Gerät
 offline ist oder schläft (Phase 2: letztes Bild aus Cache + Hinweis).
