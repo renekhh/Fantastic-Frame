@@ -42,6 +42,11 @@
 - Das Gerät soll **später an andere weitergegeben / verkauft werden können**
   → Endkunden-taugliche Einrichtung, Steuerung **lokal (Heimnetz) und über die Cloud**.
 
+## Vorhandene Ausstattung
+- **3D-Drucker** ist vorhanden: `[OFFEN: Modell, Bauraum in mm, Düse]`, Material: `[OFFEN: PLA / PETG]`.
+  Alle Halterungen und Befestigungen im Rahmen sollen damit **selbst gedruckt** werden.
+- Werkzeug: `[OFFEN: z. B. Schraubendreher-Set, Akkuschrauber, Heißklebepistole, Lötkolben ja/nein]`
+
 ## Eckdaten
 - **Strom:** Phase 1 über USB-C-Kabel. Phase 2 Akku. Die Teileauswahl muss Phase 2 schon
   berücksichtigen (Umstieg ohne Neuaufbau, idealerweise nur Akku anstecken).
