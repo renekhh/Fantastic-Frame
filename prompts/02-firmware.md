@@ -32,14 +32,14 @@ Schreibe die komplette Firmware für die in Etappe 1 gewählte Hardware – so, 
    `/snapshot`, `/stream`, `/status`, `/events`, `/events/{id}/image`,
    `/arm`, `/disarm`, `/sound`, `/config`
 8. **Vorbereitet für die Cloud** (Etappe 3): ausgehende verschlüsselte Verbindung
-   (MQTT über TLS oder WebSocket), eindeutige Geräte-ID, Pairing-Code
+   (MQTT über TLS oder WebSocket) bzw. Fernzugriff gemäß Etappe 3
 9. **Sichere Updates (OTA)** mit Rollback
 10. Energiesparmodus für Phase 2 (Akku), per Konfiguration zuschaltbar
 
 ## Lieferumfang
 - Projektstruktur als Baum, danach **alle Dateien vollständig**
 - Begründung der Technik (ESP-IDF / Arduino / PlatformIO / ESPHome / Linux+Python)
-  mit Blick auf **Einfachheit für mich** und **Produkttauglichkeit**
+  mit Blick auf **Einfachheit für mich** und gute Wartbarkeit
 - GitHub-Actions-Workflow zum automatischen Bauen
 - Web-Flasher-Seite (bzw. Image-Anleitung)
 - **Inbetriebnahme-Anleitung für Laien**: flashen → WLAN einrichten → erstes Foto im Browser

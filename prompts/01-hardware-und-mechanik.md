@@ -23,7 +23,7 @@ Vergleiche mindestens:
 
 Bewertungskriterien als Tabelle: **Montage-Einfachheit (Lötstellen!)**, Bildqualität,
 Videostream, Stromverbrauch, Akku-Tauglichkeit (Phase 2), Platzbedarf, Kosten,
-Software-Aufwand, Eignung für späteres Produkt. Danach **eine klare Empfehlung**.
+Software-Aufwand. Danach **eine klare Empfehlung**.
 
 ## 3. Einkaufsliste (das Wichtigste dieser Etappe)
 Tabelle mit:

@@ -39,8 +39,10 @@
   - "Gib mir den Link zum Livestream."
   - "Spiel einen Warnton ab."
   - "Wie ist der Status (Strom, WLAN, Speicher)?"
-- Das Gerät soll **später an andere weitergegeben / verkauft werden können**
-  → Endkunden-taugliche Einrichtung, Steuerung **lokal (Heimnetz) und über die Cloud**.
+- **Nur für den privaten Einsatz in meinem Haushalt** – kein Verkauf, keine Weitergabe.
+  → Keine Zertifizierung, keine Mehrbenutzer-/Kundenverwaltung, keine Datenschutz-Texte nötig.
+  Lieber **einfach und robust** als "produktreif".
+- Steuerung **lokal (Heimnetz)** und **von unterwegs** (z. B. Claude auf dem Handy).
 
 ## Vorhandene Ausstattung
 - **3D-Drucker** ist vorhanden: `[OFFEN: Modell, Bauraum in mm, Düse]`, Material: `[OFFEN: PLA / PETG]`.
@@ -58,16 +60,15 @@
 - **Später entfernbar:** per **Stecker** abziehbar (kein Löten) **und** per Software/MCP
   abschaltbar bzw. dimmbar. Für das Frontloch eine **druckbare Blindkappe** vorsehen.
 - Nicht direkt neben das Kameraobjektiv setzen (Lichtreflexe im Bild).
-- Für die Produktversion: Standard = **an** (Transparenz/Datenschutz); weise mich darauf hin,
-  was beim Abschalten rechtlich zu beachten ist.
 
 ## Eckdaten
 - **Strom:** Phase 1 über USB-C-Kabel. Phase 2 Akku. Die Teileauswahl muss Phase 2 schon
   berücksichtigen (Umstieg ohne Neuaufbau, idealerweise nur Akku anstecken).
 - **Nachtsicht:** jetzt nicht, darf aber später nicht verbaut sein.
 - **Ton:** nur Ausgabe (Lautsprecher), **keine Tonaufnahme** (§ 201 StGB).
-- **Netzwerk:** WLAN 2,4 GHz; keine Portfreigaben beim Kunden nötig.
-- **Datenschutz:** DSGVO-konform, Speicherdauer einstellbar, Server in der EU.
+- **Netzwerk:** WLAN 2,4 GHz; Zugriff von unterwegs **ohne offene Ports am Router**.
+- **Sicherheit (Basis):** Passwort/Token-Schutz, damit niemand Fremdes auf die Kamera
+  zugreifen kann. Speicherdauer der Bilder einstellbar.
 
 ## Arbeitsweise
 - Wir arbeiten in **Etappen**. Bearbeite nur die aktuelle Etappe.
