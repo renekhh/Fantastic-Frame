@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="232.4mm" height="232.4mm" viewBox="0 0 232.4 232.4">
+<g inkscape:groupmode="layer" id="motiv" inkscape:label="MOTIV (Bild hier einfügen, bis Beschnitt)">
+<rect x="0" y="0" width="232.4" height="232.4" fill="#ffffff"/>
+<circle cx="116.2" cy="116.2" r="100.0" fill="#6fa3b8" opacity="0.35"/>
+<circle cx="116.2" cy="116.2" r="32.0" fill="#000000" opacity="0.6"/>
+<text x="116.2" y="34.2" font-size="7" text-anchor="middle" font-family="sans-serif">PLATZHALTER - eigenes Motiv hier einsetzen</text>
+</g>
+<g inkscape:groupmode="layer" id="weiss" inkscape:label="WEISS (Spot-Farbe White)" style="display:none">
+<path fill="#d0d0d0" fill-rule="evenodd" d="M 0 0 H 232.4 V 232.4 H 0 Z M 122.2 116.2 A 6.0 6.0 0 1 0 110.2 116.2 A 6.0 6.0 0 1 0 122.2 116.2 Z M 139.45 116.2 A 23.25 23.25 0 1 0 92.95 116.2 A 23.25 23.25 0 1 0 139.45 116.2 Z M 131.075 116.2 A 14.875 14.875 0 1 1 101.325 116.2 A 14.875 14.875 0 1 1 131.075 116.2 Z"/>
+</g>
+<g inkscape:groupmode="layer" id="zonen" inkscape:label="ZONEN - nicht drucken">
+<circle cx="116.2" cy="116.2" r="6.0" fill="none" stroke="#00aa00" stroke-width="0.4"/>
+<path d="M 139.45 116.2 A 23.25 23.25 0 1 0 92.95 116.2 A 23.25 23.25 0 1 0 139.45 116.2 Z M 131.075 116.2 A 14.875 14.875 0 1 1 101.325 116.2 A 14.875 14.875 0 1 1 131.075 116.2 Z" fill="#ff0000" fill-opacity="0.25" fill-rule="evenodd" stroke="#ff0000" stroke-width="0.2"/>
+<text x="116.2" y="91.45" font-size="3" text-anchor="middle" font-family="sans-serif" fill="#cc0000">LED-Zone: Farbe ohne Weiß (leuchtet durch)</text>
+<text x="116.2" y="125.7" font-size="2.6" text-anchor="middle" font-family="sans-serif" fill="#00aa00">Kamera-Fenster Ø 12: KEINE Farbe</text>
+</g>
+<g inkscape:groupmode="layer" id="hilfe" inkscape:label="HILFSLINIEN - nicht drucken">
+<rect x="3.0" y="3.0" width="226.4" height="226.4" fill="none" stroke="#ff00ff" stroke-width="0.3"/>
+<rect x="15.0" y="15.0" width="202.4" height="202.4" fill="none" stroke="#ff9900" stroke-width="0.3" stroke-dasharray="3 2"/>
+<circle cx="116.2" cy="116.2" r="100.0" fill="none" stroke="#0077ff" stroke-width="0.3" stroke-dasharray="2 2"/>
+<circle cx="116.2" cy="116.2" r="32.0" fill="none" stroke="#0077ff" stroke-width="0.3" stroke-dasharray="2 2"/>
+<path d="M 110.2 116.2 H 122.2 M 116.2 110.2 V 122.2" stroke="#ff0000" stroke-width="0.2"/>
+<rect x="105.2" y="74.2" width="22.0" height="16.0" fill="none" stroke="#996633" stroke-width="0.3" stroke-dasharray="1 1"/>
+<text x="116.2" y="72.7" font-size="3" text-anchor="middle" font-family="sans-serif" fill="#996633">Radar dahinter: keine Metallic-Farben</text>
+<text x="5.0" y="12.0" font-size="3.5" font-family="sans-serif" fill="#ff9900">Klebeband nur im Randstreifen (12 mm)</text>
+<text x="116.2" y="153.2" font-size="3.5" text-anchor="middle" font-family="sans-serif" fill="#0077ff">Pupille Ø 64 mm / Iris Ø 200 mm (Empfehlung)</text>
+<text x="116.2" y="9.0" font-size="4" text-anchor="middle" font-family="sans-serif" fill="#ff00ff">▲ OBEN</text><path d="M 3.0 0 V 2.5 M 3.0 232.4 V 229.9" stroke="#000" stroke-width="0.2"/>
+<path d="M 229.4 0 V 2.5 M 229.4 232.4 V 229.9" stroke="#000" stroke-width="0.2"/>
+<path d="M 0 3.0 H 2.5 M 232.4 3.0 H 229.9" stroke="#000" stroke-width="0.2"/>
+<path d="M 0 229.4 H 2.5 M 232.4 229.4 H 229.9" stroke="#000" stroke-width="0.2"/>
+
+</g>
+</svg>
