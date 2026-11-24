@@ -34,7 +34,7 @@ Alle Maße in mm. Ausgewertet per Skript (`cad/tools/`), Werte auf ca. 0,5 mm ge
 | **Sicher nutzbare Höhe** (unter Rippen, über Schraubdomen) | **ca. 27 mm** (Z −5,5 … −33) |
 | Seitenwand Rahmen | 2,3 mm (X ±122,6 … ±124,9) |
 
-→ **Sehr viel Platz.** Ein ESP32-S3-Board (21 × 18 mm), Kamera, PIR, Verstärker und
+→ **Sehr viel Platz.** Ein ESP32-S3-Board (21 × 18 mm), Kamera, PIR, LED und
 später ein LiPo-Akku passen problemlos.
 
 ## Vorhandene Befestigungspunkte
@@ -50,7 +50,8 @@ später ein LiPo-Akku passen problemlos.
 gedruckte **Montageplatte** anzuschrauben – ohne das Gehäuse zu verändern.
 
 ## Wiederverwendbare Öffnungen
-- **Lautsprecheröffnung + Stoff** in der Mitte (ca. 98 × 98 mm) → neuer Lautsprecher kann dahinter.
+- **Zentrale Öffnung in der Trägerplatte** (ca. 70 × 70 mm, X ±35, Y −25…+45; früher Lautsprecher,
+  davor Stoff 98 × 98 mm) → **Platz für die zentrale Kamera** hinter dem Motiv.
 - **Seitliche Öffnung rechts** (alter Lautstärkeregler, X ≈ +119, Y ≈ −52, Z ≈ −30)
   → Durchführung für **USB-C-Kabel/-Buchse** und ggf. Reset-Taster per gedrucktem Einsatz.
 - **Batteriefach** (4 × AA, Deckel von hinten, ca. 105 × 30 mm, X −53…55, Y −88…−56)

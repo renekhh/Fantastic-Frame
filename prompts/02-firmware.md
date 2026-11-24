@@ -17,7 +17,7 @@ Schreibe die komplette Firmware für die in Etappe 1 gewählte Hardware – so, 
     fertigem SD-Karten-Image (bei Raspberry Pi).
 - **WLAN-Einrichtung ohne Code**: Gerät öffnet beim ersten Start ein eigenes WLAN
   (Captive Portal) oder per Bluetooth/App – ich wähle mein WLAN und gebe das Passwort ein.
-- **Status-/Aufnahme-LED** und **Töne** zeigen, was das Gerät gerade tut (Tabelle: Farbe/Blinkmuster → Bedeutung).
+- **Status-/Aufnahme-LED** zeigt, was das Gerät gerade tut (Tabelle: Farbe/Blinkmuster → Bedeutung).
   Die LED leuchtet bei jeder Aufnahme und jedem Stream; per Konfiguration abschalt- und dimmbar.
 - Reset auf Werkseinstellungen per Taster.
 
@@ -25,12 +25,11 @@ Schreibe die komplette Firmware für die in Etappe 1 gewählte Hardware – so, 
 1. Foto auf Abruf (JPEG), Auflösung einstellbar
 2. Videostream (MJPEG o. ä.) – nur bei Bedarf aktiv
 3. Bewegungserkennung per PIR → Foto → auf microSD speichern (+ optional Upload, Etappe 3)
-4. Lautsprecher: Töne "alarm", "chime", "beep" (vorinstalliert)
 5. Scharf/unscharf, Zeitpläne, automatische Löschung alter Bilder nach X Tagen
 6. Statuswerte: Stromquelle/Akku, WLAN-Signal, freier Speicher, Firmware-Version, Laufzeit
 7. **Lokale API** (REST, mit Token-Schutz):
    `/snapshot`, `/stream`, `/status`, `/events`, `/events/{id}/image`,
-   `/arm`, `/disarm`, `/sound`, `/config`
+   `/arm`, `/disarm`, `/led`, `/config`
 8. **Vorbereitet für die Cloud** (Etappe 3): ausgehende verschlüsselte Verbindung
    (MQTT über TLS oder WebSocket) bzw. Fernzugriff gemäß Etappe 3
 9. **Sichere Updates (OTA)** mit Rollback
@@ -50,5 +49,5 @@ Schreibe die komplette Firmware für die in Etappe 1 gewählte Hardware – so, 
 ## Fertig, wenn …
 - [ ] Firmware baut automatisch fehlerfrei
 - [ ] Ich kann das Gerät über den Browser flashen und ins WLAN bringen
-- [ ] Foto, Stream, Bewegung, Ton und Status funktionieren über die lokale API
+- [ ] Foto, Stream, Bewegung, LED und Status funktionieren über die lokale API
 - [ ] Zusammenfassung "API-Beschreibung für Etappe 3" (Endpunkte, Datenformate, Auth)

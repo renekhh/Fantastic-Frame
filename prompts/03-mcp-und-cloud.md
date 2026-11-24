@@ -41,7 +41,7 @@ Baue die Verbindung zwischen Fanbox und Claude – zuerst **lokal** im Heimnetz,
 | `list_events(device_id, since, until, limit)` | Bewegungs-Ereignisse |
 | `get_event_image(event_id)` | Bild zu einem Ereignis |
 | `arm(device_id)` / `disarm(device_id)` | Überwachung an/aus |
-| `play_sound(device_id, sound)` | "alarm" \| "chime" \| "beep" |
+| `set_led(device_id, mode)` | Aufnahme-LED an/aus/dimmen/blinken (z. B. "Auge leuchten lassen") |
 | `set_config(device_id, …)` | Empfindlichkeit, Speicherdauer, Zeitpläne, Aufnahme-LED an/aus/Helligkeit |
 
 Klare Tool-Beschreibungen, damit Claude sie richtig nutzt; Fehlerbehandlung, wenn das Gerät
@@ -49,7 +49,7 @@ offline ist oder schläft (Phase 2: letztes Bild aus Cache + Hinweis).
 
 ## Sicherheit (Basis)
 - Verschlüsselte Verbindungen, Token/Passwort-Schutz, keine Standard-Passwörter.
-- `play_sound`, `disarm` und `set_config` als "ändernde" Tools kennzeichnen.
+- `set_led`, `disarm` und `set_config` als "ändernde" Tools kennzeichnen.
 
 ## Fertig, wenn …
 - [ ] Ich kann in Claude Desktop sagen "Mach ein Foto" und sehe das Bild

@@ -33,16 +33,16 @@
 - **STEP-Datei** des Gehäuses: `cad/00_fantastic_frame-20260423.zip` (Creo-Baugruppe).
   **Bereits ausgewertet:** `cad/analyse/ANALYSE.md` (Maße, Dome, Öffnungen, Schnittbilder) – lies sie zuerst.
   Kurzfassung: Rahmen 250,7 × 250,7 × ca. 49 mm, Bildfläche 226,4 mm², freier Innenraum ca.
-  220 × 220 mm bei ca. 27 mm sicher nutzbarer Höhe; Lautsprecheröffnung mit Stoff in der Mitte,
+  220 × 220 mm bei ca. 27 mm sicher nutzbarer Höhe; große Öffnung (ca. 70 × 70 mm) in der Trägerplatte
+  in der Mitte (früher Lautsprecher, X ±35, Y −25…+45) – ideal für die zentrale Kamera,
   seitliche Öffnung rechts (alter Lautstärkeregler), Batteriefach 4 × AA unten, vorhandene
   Schraubdome für Montageplatte nutzbar. 7 wechselbare Vereins-Logo-Einsätze vorn.
 - Ziel: Die Fanbox wird zu einer unauffälligen **Kamera (Foto + Videostream)** mit
-  Bewegungserkennung und Lautsprecher, die ich **über MCP direkt aus Claude** steuere:
+  Bewegungserkennung, die ich **über MCP direkt aus Claude** steuere:
   - "Mach ein Foto und zeig es mir."
   - "Gab es heute Bewegungen? Zeig mir die Bilder."
   - "Schalte die Überwachung scharf / unscharf."
   - "Gib mir den Link zum Livestream."
-  - "Spiel einen Warnton ab."
   - "Wie ist der Status (Strom, WLAN, Speicher)?"
 - **Jetzt: privater Einsatz in meinem Haushalt** – keine Zertifizierung, keine
   Kundenverwaltung, keine Datenschutz-Texte nötig. Lieber **einfach und robust** als "produktreif".
@@ -66,6 +66,19 @@
   **ab welchem Schritt** ich es brauche, und empfiehl ein günstiges Einsteiger-Modell
   (inkl. Zubehör wie Lötzinn, Ablage) mit Bezugsquelle.
 
+## Kamera zentral im Motiv (Gestaltungsidee)
+- Die Kamera sitzt **in der Mitte des Rahmens**. Das Objektiv wird **Teil des Motivs**,
+  z. B. das **Auge eines Zyklopen**, die Pupille eines Auges, ein Planet/Mond, das Objektiv
+  einer gezeichneten Kamera, ein Bullauge, ein Roboter-Auge …
+- Das Motiv kann sein:
+  - ein **bedrucktes Bild** auf der Frontplatte mit Loch für das Objektiv, und/oder
+  - ein **3D-gedrucktes Relief-Motiv** (wie die vorhandenen Vereinslogo-Einsätze), in dem das
+    Objektiv als Auge sitzt – gern **mehrfarbig** druckbar.
+- **Wechselbare Motive**: Kamera bleibt fest montiert, nur der Motiv-Einsatz wird getauscht
+  (gleiches Befestigungsprinzip wie die Logo-Einsätze, Objektivposition bei allen Motiven gleich).
+- Bewegungssensor (PIR) und Aufnahme-LED möglichst **ebenfalls ins Motiv integrieren**
+  (z. B. LED als zweites Auge/Nase/Stern, PIR als Detail) oder unauffällig in der Rahmenkante.
+
 ## Aufnahme-Kontrollleuchte (LED)
 - Eine **sichtbare LED in der Front** zeigt an, ob die Kamera gerade **aufnimmt oder streamt**.
 - Bevorzugt **eine RGB-LED** (z. B. steckbares Grove-/WS2812-Modul), die auch den Gerätestatus
@@ -78,7 +91,7 @@
 - **Strom:** Phase 1 über USB-C-Kabel. Phase 2 Akku. Die Teileauswahl muss Phase 2 schon
   berücksichtigen (Umstieg ohne Neuaufbau, idealerweise nur Akku anstecken).
 - **Nachtsicht:** jetzt nicht, darf aber später nicht verbaut sein.
-- **Ton:** nur Ausgabe (Lautsprecher), **keine Tonaufnahme** (§ 201 StGB).
+- **Kein Lautsprecher** (wird nicht gebraucht) und **keine Tonaufnahme** (§ 201 StGB, kein Mikrofon nutzen).
 - **Netzwerk:** WLAN 2,4 GHz; Zugriff von unterwegs **ohne offene Ports am Router**.
 - **Sicherheit (Basis):** Passwort/Token-Schutz, damit niemand Fremdes auf die Kamera
   zugreifen kann. Speicherdauer der Bilder einstellbar.

@@ -12,7 +12,7 @@ Finde die **einfachste zuverlässige Hardware-Lösung** für die Fanbox, erstell
 ## 1. Bauraum aus der STEP-Datei
 (Grundauswertung liegt in `cad/analyse/ANALYSE.md` – prüfen, ergänzen, Kamera-/PIR-Position festlegen.)
 - Nutzbarer Innenraum (B × H × T in mm), Hindernisse, Wandstärken, vorhandene
-  Schraubdome/Befestigungspunkte, Position des alten Batteriefachs und Lautsprechers.
+  Schraubdome/Befestigungspunkte, Position des alten Batteriefachs und der zentralen Öffnung (früher Lautsprecher).
 - Wo können Kamera und Bewegungssensor (PIR) unauffällig durch die Front schauen?
   (Lochdurchmesser, Position, Bildwinkel)
 
@@ -55,7 +55,7 @@ gedruckten Halterungen** befestigt.
 
 **Konstruktion der Druckteile**
 - Halterungen für: Hauptplatine, Kamera (exakt hinter dem Frontloch ausgerichtet),
-  Bewegungssensor (PIR), Aufnahme-LED (+ Blindkappe fürs Frontloch), Lautsprecher, Kabelführung/Zugentlastung, USB-C-Buchse,
+  Bewegungssensor (PIR), Aufnahme-LED (+ Blindkappe fürs Frontloch), Kabelführung/Zugentlastung, USB-C-Buchse,
   später Akku. Gern als **eine Grundplatte (Montageplatte)**, auf der alles sitzt und die
   als Ganzes in den Rahmen geschraubt/geklemmt wird – wenn der Bauraum das erlaubt.
 - Befestigung der Elektronik in den Halterungen **ohne Spezialwerkzeug**:
@@ -82,6 +82,19 @@ gedruckten Halterungen** befestigt.
   Ausrichtung auf dem Druckbett, Stützen ja/nein, ungefähre Druckzeit.
 - Reihenfolge: zuerst Testteil drucken → Passung prüfen → Toleranz ggf. anpassen → Rest drucken.
 
+## 5b. Motiv mit integriertem Kamera-Auge
+- Kamera **zentral** (Objektivmitte bei X = 0, Y = 0 bzw. in der zentralen Öffnung – begründen).
+- Wähle ein Kameramodul/Objektiv, das gut als "Auge" wirkt (Durchmesser, Farbe der Linse),
+  und einen passenden **Bildwinkel** für einen Raum, wenn der Rahmen an der Wand hängt
+  (Weitwinkel ja/nein, Verzerrung).
+- Schlage **3–5 Motiv-Ideen** vor (z. B. Zyklop, Auge, Eule, Roboter, Weltraum), jeweils mit:
+  wo sitzen Objektiv, PIR und LED im Motiv?
+- Liefere für **ein Motiv (Zyklop)** einen **druckfertigen Relief-Einsatz** (STL/STEP/3MF,
+  mehrfarbig falls mein Drucker ein AMS hat: `[OFFEN: AMS ja/nein]`) plus eine **Vorlage**
+  (Maße, Loch-Positionen), mit der ich eigene Motive gestalten oder als Bild drucken kann.
+- Befestigung des Motiv-Einsatzes so, dass er **ohne Werkzeug tauschbar** ist und die Kamera
+  dabei nicht verstellt wird.
+
 ## 6. Energiebilanz
 - Phase 1 (USB-C): welches Netzteil (Watt/Ampere)?
 - Phase 2 (Akku): erwartete Laufzeit mit Rechenweg, welche Funktionen dann eingeschränkt sind
@@ -95,6 +108,7 @@ jeweils mit **"So prüfst du, dass es geklappt hat"**.
 - [ ] Empfohlene Variante steht fest und ist begründet
 - [ ] Einkaufsliste Phase 1 ist bestellfertig (inkl. Werkzeug), Phase 2 separat
 - [ ] Verbindungsplan und Bauanleitung sind für einen Laien nachvollziehbar
+- [ ] Zyklopen-Motiv-Einsatz + Motiv-Vorlage liegen druckfertig vor
 - [ ] Druckfertige STL- und STEP-Dateien für alle Halterungen liegen vor, inkl. Testteil,
       Druckeinstellungen und Baugruppen-Ansicht ohne Kollisionen
 - [ ] Zusammenfassung "Hardware-Entscheidungen für Etappe 2" (Board, Pins, Sensoren, Kamera)
