@@ -13,7 +13,7 @@ Finde die **einfachste zuverlässige Hardware-Lösung** für die Fanbox, erstell
 (Grundauswertung liegt in `cad/analyse/ANALYSE.md` – prüfen, ergänzen, Kamera-/PIR-Position festlegen.)
 - Nutzbarer Innenraum (B × H × T in mm), Hindernisse, Wandstärken, vorhandene
   Schraubdome/Befestigungspunkte, Position des alten Batteriefachs und der zentralen Öffnung (früher Lautsprecher).
-- Wo können Kamera und Bewegungssensor (PIR) unauffällig durch die Front schauen?
+- Wo können Kamera und Bewegungssensor (PIR) dezent, aber erkennbar durch die Front schauen?
   (Lochdurchmesser, Position, Bildwinkel)
 
 ## 2. Variantenvergleich
@@ -55,7 +55,7 @@ gedruckten Halterungen** befestigt.
 
 **Konstruktion der Druckteile**
 - Halterungen für: Hauptplatine, Kamera (exakt hinter dem Frontloch ausgerichtet),
-  Bewegungssensor (PIR), Aufnahme-LED (+ Blindkappe fürs Frontloch), Kabelführung/Zugentlastung, USB-C-Buchse,
+  Bewegungssensor (PIR), Aufnahme-LED (gut sichtbar, fest verbaut), Kabelführung/Zugentlastung, USB-C-Buchse,
   später Akku. Gern als **eine Grundplatte (Montageplatte)**, auf der alles sitzt und die
   als Ganzes in den Rahmen geschraubt/geklemmt wird – wenn der Bauraum das erlaubt.
 - Befestigung der Elektronik in den Halterungen **ohne Spezialwerkzeug**:

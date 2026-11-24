@@ -41,7 +41,7 @@ Baue die Verbindung zwischen Fanbox und Claude – zuerst **lokal** im Heimnetz,
 | `list_events(device_id, since, until, limit)` | Bewegungs-Ereignisse |
 | `get_event_image(event_id)` | Bild zu einem Ereignis |
 | `arm(device_id)` / `disarm(device_id)` | Überwachung an/aus |
-| `set_led(device_id, mode)` | Aufnahme-LED an/aus/dimmen/blinken (z. B. "Auge leuchten lassen") |
+| `set_led(device_id, mode)` | LED-Effekte/Helligkeit (z. B. "Auge leuchten lassen") – Aufnahme-Anzeige kann **nicht** abgeschaltet werden |
 | `set_config(device_id, …)` | Empfindlichkeit, Speicherdauer, Zeitpläne, Aufnahme-LED an/aus/Helligkeit |
 
 Klare Tool-Beschreibungen, damit Claude sie richtig nutzt; Fehlerbehandlung, wenn das Gerät

@@ -37,7 +37,8 @@
   in der Mitte (früher Lautsprecher, X ±35, Y −25…+45) – ideal für die zentrale Kamera,
   seitliche Öffnung rechts (alter Lautstärkeregler), Batteriefach 4 × AA unten, vorhandene
   Schraubdome für Montageplatte nutzbar. 7 wechselbare Vereins-Logo-Einsätze vorn.
-- Ziel: Die Fanbox wird zu einer unauffälligen **Kamera (Foto + Videostream)** mit
+- Ziel: Die Fanbox wird zu einer **dezent gestalteten, aber als Kamera erkennbaren**
+  **Kamera (Foto + Videostream)** mit
   Bewegungserkennung, die ich **über MCP direkt aus Claude** steuere:
   - "Mach ein Foto und zeig es mir."
   - "Gab es heute Bewegungen? Zeig mir die Bilder."
@@ -45,7 +46,20 @@
   - "Gib mir den Link zum Livestream."
   - "Wie ist der Status (Strom, WLAN, Speicher)?"
 - **Jetzt: privater Einsatz in meinem Haushalt** – keine Zertifizierung, keine
-  Kundenverwaltung, keine Datenschutz-Texte nötig. Lieber **einfach und robust** als "produktreif".
+  Kundenverwaltung. Lieber **einfach und robust** als "produktreif".
+- **Gestaltungsziel:** Die Kamera soll **wohnlich aussehen** (Bild statt klobiger
+  Überwachungskamera), aber **nicht heimlich** filmen. Alle Personen im Haushalt wissen
+  Bescheid; Gäste werden informiert.
+
+## Rechtlicher Rahmen (harte Anforderung – Konstruktion muss das einhalten)
+- **§ 8 TDDDG** (früher § 90 TKG): Funk-Kameras, die als Alltagsgegenstand getarnt und dazu
+  bestimmt sind, Personen **unbemerkt** aufzunehmen, sind in Deutschland schon im **Besitz**
+  verboten (Bundesnetzagentur geht dagegen vor). → Das Gerät muss als Kamera **erkennbar**
+  bleiben und Aufnahmen **sichtbar anzeigen**. Prüfe die Konstruktion gezielt darauf und
+  nenne, was ggf. noch nötig ist (z. B. Hinweis-Aufkleber, Rückfrage bei der Bundesnetzagentur).
+- **§ 201a StGB:** keine Aufnahmen in Bad, Schlafzimmer o. ä. geschützten Räumen;
+  **§ 201 StGB:** keine Tonaufnahme.
+- Aufnahmen anderer Erwachsener im Haushalt nur mit deren Wissen.
 - **Später:** evtl. ein paar Exemplare für **Freunde**, langfristig Fertigung durch einen
   **Hersteller in großer Stückzahl** (eigene Etappe 4).
   → Triff Entscheidungen so, dass dieser Weg **nicht verbaut** wird (z. B. gängige, langfristig
@@ -93,14 +107,16 @@
 - **Wechselbare Motive**: Kamera bleibt fest montiert, nur der Motiv-Einsatz wird getauscht
   (gleiches Befestigungsprinzip wie die Logo-Einsätze, Objektivposition bei allen Motiven gleich).
 - Bewegungssensor (PIR) und Aufnahme-LED möglichst **ebenfalls ins Motiv integrieren**
-  (z. B. LED als zweites Auge/Nase/Stern, PIR als Detail) oder unauffällig in der Rahmenkante.
+  (z. B. LED als zweites Auge/Nase/Stern, PIR als Detail) oder dezent in der Rahmenkante.
 
 ## Aufnahme-Kontrollleuchte (LED)
 - Eine **sichtbare LED in der Front** zeigt an, ob die Kamera gerade **aufnimmt oder streamt**.
 - Bevorzugt **eine RGB-LED** (z. B. steckbares Grove-/WS2812-Modul), die auch den Gerätestatus
   anzeigt (startet, WLAN-Problem, scharf geschaltet …). Farbschema als Tabelle.
-- **Später entfernbar:** per **Stecker** abziehbar (kein Löten) **und** per Software/MCP
-  abschaltbar bzw. dimmbar. Für das Frontloch eine **druckbare Blindkappe** vorsehen.
+- **Pflicht, fest verbaut:** Die LED leuchtet bei **jeder** Aufnahme und jedem Stream gut
+  sichtbar. Sie ist **dimmbar, aber nicht abschaltbar** (weder per Software/MCP noch durch
+  einfaches Abziehen) – sie ist Teil der rechtlichen Absicherung (siehe oben).
+- Steckbar angeschlossen ist sie trotzdem (einfache Montage, kein Löten).
 - Nicht direkt neben das Kameraobjektiv setzen (Lichtreflexe im Bild).
 
 ## Eckdaten
