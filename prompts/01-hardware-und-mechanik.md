@@ -97,8 +97,11 @@ gedruckten Halterungen** befestigt.
   - Hilfslinien für Iris-/Augengröße (Pupille um das Objektiv-Fenster), Auflösungshinweis
     (≥ 300 dpi → ca. 2.700 × 2.700 px)
   - kurze Anleitung, wie ich ein eigenes Motiv in die Vorlage lege
-- **Platten-Halterung** (3D-gedruckt), die die Platte **werkzeuglos tauschbar** fixiert und
-  das Objektiv dabei nicht verstellt.
+- **Befestigung der Platte:** bisher doppelseitiges Klebeband auf der Front. Empfehlung, ob das
+  bleibt oder durch ablösbares Klebeband/Magnete/Clips ersetzt wird (siehe Kontext); dazu
+  **Klebeband-Layout** in der Druckvorlage (wo kleben, wo frei lassen) und eine **Positionierhilfe**
+  (z. B. gedruckte Schablone), damit das Objektiv-Fenster exakt mittig sitzt.
+- Die Kamera ist **hinter der Front fest montiert** und unabhängig von der Platte justierbar.
 - 3–5 Motiv-Ideen (Favoriten siehe Kontext) mit Skizze, wo Pupille/Objektiv, LED und PIR sitzen.
 
 ## 6. Energiebilanz

@@ -87,6 +87,9 @@
 - **Motive werden ausschließlich auf eine transparente Platte gedruckt** – damit haben wir
   bereits Erfahrung. **Kein 3D-gedrucktes Relief-Motiv.** Unser bisheriges Verfahren:
   `[OFFEN: Plattenmaterial, Dicke, Druckverfahren/Dienstleister]`.
+  **Befestigung bisher:** Platte mit **doppelseitigem Klebeband auf die Front geklebt**
+  (bewährt, einfach). Klebeband-Dicke zählt zur Gesamthöhe; im Bereich von Objektiv-, LED- und
+  PIR-Fenster darf kein Klebeband sitzen.
 - Platz laut STEP: Tasche **226,4 × 226,4 mm**, Plattenauflage bei Z +1,14, Rahmen-Innenwand
   bis ca. Z +4,7 → Platten bis ca. **3 mm** Dicke liegen innerhalb der Rahmenkante
   (Annahme, am Bauteil prüfen).
@@ -103,6 +106,10 @@
   - **Weiße Grundierung** hinter dem Motiv, damit das Innere nicht durchscheint – außer an
     Stellen, die **hinterleuchtet** werden sollen (z. B. Iris leuchtet als Aufnahme-Anzeige).
 - **Wechselbare Motive:** Kamera bleibt fest montiert, nur die Platte wird getauscht.
+  Vergleiche dafür: (a) wie bisher **Klebeband** (ggf. wieder ablösbares Klebeband),
+  (b) **Magnete** (in Platte/Front eingeklebt), (c) gedruckte **Klemm-/Clipleisten** am Rand.
+  Kriterien: einfach, kein sichtbarer Halter, Platte sitzt plan, Objektiv-Fenster immer exakt
+  mittig. Bevorzugt die einfachste Lösung, die nah am bewährten Klebeband-Prinzip bleibt.
 - Bewegungssensor (PIR) und Aufnahme-LED möglichst **ins Motiv integrieren** (eigenes Fenster in
   der Platte) oder dezent in der Rahmenkante.
 
