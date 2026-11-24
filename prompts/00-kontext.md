@@ -98,6 +98,14 @@
      (Mandel-/Rautenform, Strahlen, Filigran) auf schwarzem Hintergrund.
   2. **Fotorealistisches Makro-Auge:** Nahaufnahme mit Wimpern, Lid, detailreicher Iris und
      **großer schwarzer Pupille**; der **weiße Lichtreflex** im Auge könnte die Aufnahme-LED sein.
+  3. **Iris-Fotografie (aktueller Favorit):** frontale Makroaufnahme nur der Iris, kreisrund,
+     zentriert, auf **weißem Hintergrund**; blau-grüne Iris mit goldenen Sprenkeln und feinen
+     Fasern, **große schwarze Pupille genau in der Mitte** (ca. ⅓ des Iris-Durchmessers).
+     Passt ideal: Bei ca. 200 mm Iris-Durchmesser ist die Pupille ca. 65 mm groß – das Objektiv
+     verschwindet darin. Weißer Hintergrund → weiße Grundierung; die Iris eignet sich zum
+     **Hinterleuchten** als Aufnahme-Anzeige.
+     Idee: ein **Foto der eigenen Iris** (Iris-Fotostudio oder Makro-Aufnahme) – persönlich und
+     ohne Urheberrechtsfragen.
   Bildquelle: eigenes Foto, lizenziertes Stockfoto oder KI-generiert.
 - Wichtig für die Kamera hinter der Platte:
   - **Klares, unbedrucktes Fenster** (oder Bohrung) genau vor dem Objektiv.
