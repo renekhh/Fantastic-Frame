@@ -89,6 +89,10 @@ gedruckten Halterungen** befestigt.
   (Weitwinkel ja/nein, Verzerrung).
 - Schlage **3–5 Motiv-Ideen** vor (Favorit: **Ornament-Auge**, siehe Kontext; weitere z. B. Zyklop, Eule, Roboter, Weltraum), jeweils mit:
   wo sitzen Objektiv, PIR und LED im Motiv?
+- Vergleiche die beiden Favoriten **Ornament-Auge** (stilisiert, als Relief druckbar) und
+  **fotorealistisches Makro-Auge** (Fotodruck) hinsichtlich Tarnung des Objektivs, Aufwand, Wirkung.
+- Für das Makro-Auge: Druckverfahren/Material für die Frontplatte (226,4 × 226,4 mm, ca. 0,5 mm),
+  Bildauflösung, wo drucken lassen; Loch/Fenster für das Objektiv in der Pupille; Lichtreflex-LED.
 - **Proportionen** für das Ornament-Auge: Pupille = Objektiv-Durchmesser, Iris-Durchmesser,
   Gesamtgröße des Auges auf der Bildfläche (226 × 226 mm) – mit Skizze.
 - Prüfe, ob ein **kleiner RGB-LED-Ring** (z. B. WS2812, steckbar) um das Objektiv passt

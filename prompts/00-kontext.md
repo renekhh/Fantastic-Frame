@@ -82,6 +82,14 @@
   (Urheberrecht, v. a. falls die Fanbox später weitergegeben wird).
   Ideen zur Integration: **LED-Ring um die Pupille** als "leuchtende Iris" = Aufnahme-Anzeige;
   PIR-Sensor im oberen Ornament-Juwel; Status-LED in der unteren Spitze.
+- **Variante 2 / Stilreferenz: "fotorealistisches Makro-Auge"** – ein Auge in Nahaufnahme füllt
+  das Bild (Wimpern, Lid, detailreiche bernstein-/grünbraune Iris, **große schwarze Pupille**).
+  Die Pupille ist viel größer als das Objektiv → das Objektiv sitzt **unsichtbar mitten in der
+  schwarzen Pupille**. Idee: Der **weiße Lichtreflex** im Auge ist die **Aufnahme-LED**.
+  Umsetzung als **hochaufgelöster Fotodruck** auf der Frontplatte (3D-Druck kann das nicht
+  fotorealistisch). Bildquelle: eigenes Foto, lizenziertes Stockfoto oder KI-generiert –
+  keine fremden Bilder ohne Lizenz.
+- Für beide Varianten gilt: **Objektiv = Pupille, Position immer gleich (Bildmitte)**.
 - **Wechselbare Motive**: Kamera bleibt fest montiert, nur der Motiv-Einsatz wird getauscht
   (gleiches Befestigungsprinzip wie die Logo-Einsätze, Objektivposition bei allen Motiven gleich).
 - Bewegungssensor (PIR) und Aufnahme-LED möglichst **ebenfalls ins Motiv integrieren**
