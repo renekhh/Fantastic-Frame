@@ -75,6 +75,8 @@ gedruckten Halterungen** befestigt.
   angepasst werden können – mit einer Anleitung, wie ich die Dateien neu erzeuge.
 - Eine **Baugruppen-Ansicht** (alle Teile im Gehäuse aus der STEP-Datei), um Kollisionen
   vor dem Druck auszuschließen.
+- Zusätzlich eine **Bambu-Studio-Projektdatei (.3mf)** mit allen Teilen fertig angeordnet
+  (falls technisch möglich; sonst Anleitung zum Anordnen).
 - **Druckeinstellungen pro Teil** als Tabelle: Material, Schichthöhe, Wandlinien, Infill,
   Ausrichtung auf dem Druckbett, Stützen ja/nein, ungefähre Druckzeit.
 - Reihenfolge: zuerst Testteil drucken → Passung prüfen → Toleranz ggf. anpassen → Rest drucken.

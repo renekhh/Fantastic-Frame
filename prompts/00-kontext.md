@@ -30,7 +30,7 @@
 - Produkt: **"Fantastic Frame Fanbox"** – ein Bilderrahmen-Gehäuse. Bisher drin:
   ein Lautsprecher und ein Batteriefach mit 4 Batterien.
 - **Die komplette alte Elektronik fliegt raus.** Nur das Gehäuse bleibt.
-- Ich habe eine **STEP-Datei (.stp)** des Gehäuses: `[OFFEN: Dateiname/Pfad]`.
+- Ich habe eine **STEP-Datei (.stp)** des Gehäuses im Ordner `cad/` dieses Repositorys.
 - Ziel: Die Fanbox wird zu einer unauffälligen **Kamera (Foto + Videostream)** mit
   Bewegungserkennung und Lautsprecher, die ich **über MCP direkt aus Claude** steuere:
   - "Mach ein Foto und zeig es mir."
@@ -49,7 +49,11 @@
 - Steuerung **lokal (Heimnetz)** und **von unterwegs** (z. B. Claude auf dem Handy).
 
 ## Vorhandene Ausstattung
-- **3D-Drucker** ist vorhanden: `[OFFEN: Modell, Bauraum in mm, Düse]`, Material: `[OFFEN: PLA / PETG]`.
+- **3D-Drucker:** **Bambu Lab X1 Carbon** (geschlossener Bauraum 256 × 256 × 256 mm,
+  Standarddüse 0,4 mm, Slicer: Bambu Studio). Kann PLA, PETG, ABS/ASA, TPU.
+  Material: **PLA bevorzugt**; wo nötig ein anderes (z. B. **PETG** an warmen Stellen wie
+  Kamera/Platine, da PLA ab ca. 55 °C weich wird; **TPU** für Dämpfer/Kabeldurchführungen) –
+  jeweils begründen.
   Alle Halterungen und Befestigungen im Rahmen sollen damit **selbst gedruckt** werden.
 - Werkzeug vorhanden: **Schraubendreher (ausreichend)**.
 - Kann ich **bei Bedarf ausleihen oder kaufen**: **Heißklebepistole** und **Lötkolben**.
