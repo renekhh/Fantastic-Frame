@@ -10,6 +10,7 @@ Finde die **einfachste zuverlässige Hardware-Lösung** für die Fanbox, erstell
 **Einkaufsliste**, mit der ich sofort bestellen kann, und eine **Bauanleitung für Laien**.
 
 ## 1. Bauraum aus der STEP-Datei
+(Grundauswertung liegt in `cad/analyse/ANALYSE.md` – prüfen, ergänzen, Kamera-/PIR-Position festlegen.)
 - Nutzbarer Innenraum (B × H × T in mm), Hindernisse, Wandstärken, vorhandene
   Schraubdome/Befestigungspunkte, Position des alten Batteriefachs und Lautsprechers.
 - Wo können Kamera und Bewegungssensor (PIR) unauffällig durch die Front schauen?

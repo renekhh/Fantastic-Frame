@@ -30,7 +30,12 @@
 - Produkt: **"Fantastic Frame Fanbox"** – ein Bilderrahmen-Gehäuse. Bisher drin:
   ein Lautsprecher und ein Batteriefach mit 4 Batterien.
 - **Die komplette alte Elektronik fliegt raus.** Nur das Gehäuse bleibt.
-- Ich habe eine **STEP-Datei (.stp)** des Gehäuses im Ordner `cad/` dieses Repositorys.
+- **STEP-Datei** des Gehäuses: `cad/00_fantastic_frame-20260423.zip` (Creo-Baugruppe).
+  **Bereits ausgewertet:** `cad/analyse/ANALYSE.md` (Maße, Dome, Öffnungen, Schnittbilder) – lies sie zuerst.
+  Kurzfassung: Rahmen 250,7 × 250,7 × ca. 49 mm, Bildfläche 226,4 mm², freier Innenraum ca.
+  220 × 220 mm bei ca. 27 mm sicher nutzbarer Höhe; Lautsprecheröffnung mit Stoff in der Mitte,
+  seitliche Öffnung rechts (alter Lautstärkeregler), Batteriefach 4 × AA unten, vorhandene
+  Schraubdome für Montageplatte nutzbar. 7 wechselbare Vereins-Logo-Einsätze vorn.
 - Ziel: Die Fanbox wird zu einer unauffälligen **Kamera (Foto + Videostream)** mit
   Bewegungserkennung und Lautsprecher, die ich **über MCP direkt aus Claude** steuere:
   - "Mach ein Foto und zeig es mir."
