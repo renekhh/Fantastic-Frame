@@ -86,7 +86,11 @@
   Roboter-Auge …). **Objektivposition ist bei allen Motiven gleich (Bildmitte).**
 - **Motive werden ausschließlich auf eine transparente Platte gedruckt** – damit haben wir
   bereits Erfahrung. **Kein 3D-gedrucktes Relief-Motiv.** Unser bisheriges Verfahren:
-  `[OFFEN: Plattenmaterial, Dicke, Druckverfahren/Dienstleister]`.
+  **2 mm Acryl (PMMA), bedruckt von einer UV-Druckerei** (UV-Direktdruck, Weiß-Unterdruck möglich).
+  Höhen-Check: bisherige Front (Oberkante Z +1,74) + Klebeband (ca. 0,5–1 mm) + 2 mm Acryl
+  → Oberkante ca. Z +4,2…4,7 = bündig mit der Rahmen-Innenwand (ca. Z +4,7) → **passt**
+  (am Bauteil prüfen). Die bisherige Front braucht dann ein **Loch für Objektiv, LED und PIR**
+  (oder wird im Kamerabereich ausgeschnitten).
   **Befestigung bisher:** Platte mit **doppelseitigem Klebeband auf die Front geklebt**
   (bewährt, einfach). Klebeband-Dicke zählt zur Gesamthöhe; im Bereich von Objektiv-, LED- und
   PIR-Fenster darf kein Klebeband sitzen.
