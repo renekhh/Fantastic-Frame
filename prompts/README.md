@@ -16,3 +16,6 @@ So benutzt du die Prompts:
 3. Am Ende jeder Etappe die **Zusammenfassung** speichern (z. B. als `ergebnisse/etappe-1.md`)
    und in die nächste Etappe mitnehmen.
 4. Erst weitermachen, wenn die Checkliste "Fertig, wenn …" erfüllt ist.
+
+## Ergebnisse
+- Etappe 1: [`ergebnisse/etappe-1/README.md`](../ergebnisse/etappe-1/README.md)

@@ -43,20 +43,22 @@ CAM_HOLES = [(-10.5, -12.5 + 2.0), (10.5, -12.5 + 2.0), (-10.5, 0.0), (10.5, 0.0
 #   hole pattern 21 x 12.5 mm, given relative to the LENS centre; the two upper holes
 #   are level with the lens centre, the lens sits 9.5 mm below the top edge (ANNAHME)
 CAM_LENS_FROM_TOP = 9.5
-CAM_HEIGHT = 12.4             # PCB underside -> lens front, Wide version (ANNAHME)
+CAM_HEIGHT = 12.4             # Camera Module 3 Wide: 25 x 24 x 12.4 mm (standard: 11.5)
 CAM_PILOT = 1.8               # pilot hole for M2 x 6 screws (self-tapping into PETG)
 CAM_STANDOFF = 3.0            # room for the FPC connector on the back side
 LENS_GAP = 1.5                # lens front -> acrylic back, bridged by a foam ring
 
 # ---------------------------------------------------------------- LED ring (WS2812/WS2813, 16 LED)
-RING_OD, RING_ID = 44.5, 31.75   # ANNAHME (Adafruit-size 16-LED ring) - measure yours!
+RING_OD, RING_ID = 44.5, 31.75   # 16x WS2812B ring, "NeoPixel Ring 16" size - measure yours!
+#   Alternative without soldering: Seeed Grove RGB LED Ring 16x WS2813 Mini (104020171),
+#   outer diameter 58 mm (inner: measure) -> change RING_OD/RING_ID and re-run this script.
 RING_THK = 3.2                   # PCB + LEDs
 RING_POST_R = (RING_OD + RING_ID) / 4      # posts sit under the ring PCB
 RING_POST_ANGLES = (0, 60, 120, 180)       # deg; below the lens is kept free for the FPC
 Z_RING_TOP = Z_ACRYL_BACK - 1.5            # LEDs 1.5 mm behind the acrylic
 
 # ---------------------------------------------------------------- Radar HLK-LD2410C
-RADAR_W, RADAR_H = 22.0, 16.0    # ANNAHME (datasheet) - measure yours!
+RADAR_W, RADAR_H = 22.0, 16.0    # HLK-LD2410C, 16 x 22 mm per Hi-Link manual v1.00
 RADAR_CENTER = (0.0, 34.0)       # inside the central tray opening, above the LED ring
 Z_RADAR_FRONT = Z_ACRYL_BACK - 3.0
 RADAR_PCB = 1.0
