@@ -93,6 +93,16 @@ gedruckten Halterungen** befestigt.
   **fotorealistisches Makro-Auge** (Fotodruck) hinsichtlich Tarnung des Objektivs, Aufwand, Wirkung.
 - Für das Makro-Auge: Druckverfahren/Material für die Frontplatte (226,4 × 226,4 mm, ca. 0,5 mm),
   Bildauflösung, wo drucken lassen; Loch/Fenster für das Objektiv in der Pupille; Lichtreflex-LED.
+- **Transparente Motivplatte** (Hauptlösung für die Motive), bitte liefern:
+  - Material (Acryl/PMMA, PETG oder Polycarbonat) und Dicke passend zur Tasche
+    (226,4 × 226,4 mm, max. ca. 3 mm – an der STEP-Datei prüfen), Kantenbearbeitung.
+  - Druckverfahren (z. B. **UV-Direktdruck mit Weiß-Unterdruck**) und Anbieter in DE,
+    alternativ Selbermachen (bedruckte Folie + Platte); Kosten pro Platte.
+  - **Druckvorlage** (SVG/PDF) im Endformat mit Beschnitt, Schnittmarken, exakter Position und
+    Größe des **klaren Objektiv-Fensters**, ggf. LED-/PIR-Fenster, Weißmaske als eigene Ebene,
+    Auflösungshinweis (≥ 300 dpi → ca. 2.700 × 2.700 px).
+  - Halterung, die die Platte **werkzeuglos tauschbar** fixiert und das Objektiv dicht an
+    das Fenster drückt (Dichtring, Kamera-Abstand), Test des Kamerabilds durch die Platte.
 - **Proportionen** für das Ornament-Auge: Pupille = Objektiv-Durchmesser, Iris-Durchmesser,
   Gesamtgröße des Auges auf der Bildfläche (226 × 226 mm) – mit Skizze.
 - Prüfe, ob ein **kleiner RGB-LED-Ring** (z. B. WS2812, steckbar) um das Objektiv passt
@@ -118,6 +128,7 @@ jeweils mit **"So prüfst du, dass es geklappt hat"**.
 - [ ] Empfohlene Variante steht fest und ist begründet
 - [ ] Einkaufsliste Phase 1 ist bestellfertig (inkl. Werkzeug), Phase 2 separat
 - [ ] Verbindungsplan und Bauanleitung sind für einen Laien nachvollziehbar
+- [ ] Druckvorlage für die transparente Motivplatte + Bezugsquelle stehen
 - [ ] Ornament-Auge-Motiv-Einsatz + Motiv-Vorlage liegen druckfertig vor
 - [ ] Druckfertige STL- und STEP-Dateien für alle Halterungen liegen vor, inkl. Testteil,
       Druckeinstellungen und Baugruppen-Ansicht ohne Kollisionen

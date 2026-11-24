@@ -26,6 +26,11 @@ Alle Maße in mm. Ausgewertet per Skript (`cad/tools/`), Werte auf ca. 0,5 mm ge
 | Rahmen inkl. Trägerplatte | RAHMEN_GEHRUNG | −28,6 … +7,1 | Trägerplatte Z −0,56 … +1,14 (1,7 mm), Rippen nach hinten bis Z ≈ −5,5 |
 | Rückwand-Gehäuse | BOTTOM_HOUSING | −42,0 … −15,0 | Boden innen Z −38,2, Wandstärke 2 mm |
 
+## Tasche für die Frontplatte / Motivplatte
+- Maß **226,4 × 226,4 mm**, Auflage auf der Trägerplatte bei Z +1,14.
+- Rahmen-Innenwand reicht bis ca. Z +4,7 (Vorderkante Z +6,7)
+  → Platten bis ca. **3 mm** Dicke liegen innerhalb der Rahmenkante (Annahme, am Bauteil prüfen).
+
 ## Freier Innenraum (nach Ausbau der alten Elektronik)
 | | Wert |
 |---|---|

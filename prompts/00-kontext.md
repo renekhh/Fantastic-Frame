@@ -100,10 +100,19 @@
   das Bild (Wimpern, Lid, detailreiche bernstein-/grünbraune Iris, **große schwarze Pupille**).
   Die Pupille ist viel größer als das Objektiv → das Objektiv sitzt **unsichtbar mitten in der
   schwarzen Pupille**. Idee: Der **weiße Lichtreflex** im Auge ist die **Aufnahme-LED**.
-  Umsetzung als **hochaufgelöster Fotodruck** auf der Frontplatte (3D-Druck kann das nicht
-  fotorealistisch). Bildquelle: eigenes Foto, lizenziertes Stockfoto oder KI-generiert –
+  Umsetzung als **hochaufgelöster Fotodruck** (3D-Druck kann das nicht fotorealistisch). Bildquelle: eigenes Foto, lizenziertes Stockfoto oder KI-generiert –
   keine fremden Bilder ohne Lizenz.
 - Für beide Varianten gilt: **Objektiv = Pupille, Position immer gleich (Bildmitte)**.
+- **Geplante Umsetzung der Motive: Druck auf eine transparente Platte** (statt der bisherigen
+  0,5-mm-Frontplatte), damit auch **fotorealistische Motive** möglich sind. Platz laut STEP:
+  Tasche **226,4 × 226,4 mm**, Plattenauflage bei Z +1,14, Rahmen-Innenwand bis ca. Z +4,7
+  → Platten bis ca. **3 mm** Dicke liegen noch innerhalb der Rahmenkante (Annahme, prüfen).
+  Wichtig dabei:
+  - **Klares, unbedrucktes Fenster** (oder Bohrung) genau vor dem Objektiv, damit das Kamerabild
+    nicht leidet; Objektiv mit **schwarzer Schaumstoff-Dichtung** direkt an die Platte, damit
+    keine Spiegelungen/Streulicht (auch von der LED) ins Bild fallen.
+  - Druck mit **weißer Grundierung** hinter dem Motiv, sonst scheint das Innere durch.
+  - Option: Motiv teilweise **hinterleuchten** (z. B. Iris leuchtet als Aufnahme-Anzeige).
 - **Wechselbare Motive**: Kamera bleibt fest montiert, nur der Motiv-Einsatz wird getauscht
   (gleiches Befestigungsprinzip wie die Logo-Einsätze, Objektivposition bei allen Motiven gleich).
 - Bewegungssensor (PIR) und Aufnahme-LED möglichst **ebenfalls ins Motiv integrieren**
