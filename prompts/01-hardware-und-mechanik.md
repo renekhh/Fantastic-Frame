@@ -82,38 +82,24 @@ gedruckten Halterungen** befestigt.
   Ausrichtung auf dem Druckbett, Stützen ja/nein, ungefähre Druckzeit.
 - Reihenfolge: zuerst Testteil drucken → Passung prüfen → Toleranz ggf. anpassen → Rest drucken.
 
-## 5b. Motiv mit integriertem Kamera-Auge
+## 5b. Kamera-Auge & transparente Motivplatte
 - Kamera **zentral** (Objektivmitte bei X = 0, Y = 0 bzw. in der zentralen Öffnung – begründen).
-- Wähle ein Kameramodul/Objektiv, das gut als "Auge" wirkt (Durchmesser, Farbe der Linse),
-  und einen passenden **Bildwinkel** für einen Raum, wenn der Rahmen an der Wand hängt
+- Kameramodul/Objektiv wählen, das gut als **Pupille** wirkt (Durchmesser, dunkle Linse) und einen
+  passenden **Bildwinkel** für einen Raum hat, wenn der Rahmen an der Wand hängt
   (Weitwinkel ja/nein, Verzerrung).
-- Schlage **3–5 Motiv-Ideen** vor (Favorit: **Ornament-Auge**, siehe Kontext; weitere z. B. Zyklop, Eule, Roboter, Weltraum), jeweils mit:
-  wo sitzen Objektiv, PIR und LED im Motiv?
-- Vergleiche die beiden Favoriten **Ornament-Auge** (stilisiert, als Relief druckbar) und
-  **fotorealistisches Makro-Auge** (Fotodruck) hinsichtlich Tarnung des Objektivs, Aufwand, Wirkung.
-- Für das Makro-Auge: Druckverfahren/Material für die Frontplatte (226,4 × 226,4 mm, ca. 0,5 mm),
-  Bildauflösung, wo drucken lassen; Loch/Fenster für das Objektiv in der Pupille; Lichtreflex-LED.
-- **Transparente Motivplatte** (Hauptlösung für die Motive), bitte liefern:
-  - Material (Acryl/PMMA, PETG oder Polycarbonat) und Dicke passend zur Tasche
-    (226,4 × 226,4 mm, max. ca. 3 mm – an der STEP-Datei prüfen), Kantenbearbeitung.
-  - Druckverfahren (z. B. **UV-Direktdruck mit Weiß-Unterdruck**) und Anbieter in DE,
-    alternativ Selbermachen (bedruckte Folie + Platte); Kosten pro Platte.
-  - **Druckvorlage** (SVG/PDF) im Endformat mit Beschnitt, Schnittmarken, exakter Position und
-    Größe des **klaren Objektiv-Fensters**, ggf. LED-/PIR-Fenster, Weißmaske als eigene Ebene,
-    Auflösungshinweis (≥ 300 dpi → ca. 2.700 × 2.700 px).
-  - Halterung, die die Platte **werkzeuglos tauschbar** fixiert und das Objektiv dicht an
-    das Fenster drückt (Dichtring, Kamera-Abstand), Test des Kamerabilds durch die Platte.
-- **Proportionen** für das Ornament-Auge: Pupille = Objektiv-Durchmesser, Iris-Durchmesser,
-  Gesamtgröße des Auges auf der Bildfläche (226 × 226 mm) – mit Skizze.
+- **Kamerabild durch die Platte:** Fenster-Durchmesser, Abstand Objektiv ↔ Platte, Dichtung,
+  Einfluss von Plattenmaterial/-dicke auf Schärfe und Spiegelungen; Bohrung vs. klares Fenster.
 - Prüfe, ob ein **kleiner RGB-LED-Ring** (z. B. WS2812, steckbar) um das Objektiv passt
-  (leuchtende Iris als Aufnahme-Anzeige), ohne Reflexe ins Kamerabild zu werfen.
-- Umsetzung vergleichen: (a) **Bilddruck** auf der Frontplatte, (b) **3D-Relief** mehrfarbig,
-  (c) **Kombination** (gedruckter Hintergrund + gedrucktes Relief-Auge). Empfehlung geben.
-- Liefere für **das Ornament-Auge** einen **druckfertigen Relief-Einsatz** (STL/STEP/3MF,
-  mehrfarbig falls mein Drucker ein AMS hat: `[OFFEN: AMS ja/nein]`) plus eine **Vorlage**
-  (Maße, Loch-Positionen), mit der ich eigene Motive gestalten oder als Bild drucken kann.
-- Befestigung des Motiv-Einsatzes so, dass er **ohne Werkzeug tauschbar** ist und die Kamera
-  dabei nicht verstellt wird.
+  (hinterleuchtete Iris als Aufnahme-Anzeige), ohne Reflexe ins Kamerabild zu werfen.
+- **Druckvorlage** (SVG + PDF) im Endformat 226,4 × 226,4 mm, mit Beschnitt und Schnittmarken:
+  - exakte Position/Größe des **Objektiv-Fensters**, ggf. LED- und PIR-Fenster
+  - **Weißmaske** als eigene Ebene (ausgespart: Fenster + hinterleuchtete Bereiche)
+  - Hilfslinien für Iris-/Augengröße (Pupille um das Objektiv-Fenster), Auflösungshinweis
+    (≥ 300 dpi → ca. 2.700 × 2.700 px)
+  - kurze Anleitung, wie ich ein eigenes Motiv in die Vorlage lege
+- **Platten-Halterung** (3D-gedruckt), die die Platte **werkzeuglos tauschbar** fixiert und
+  das Objektiv dabei nicht verstellt.
+- 3–5 Motiv-Ideen (Favoriten siehe Kontext) mit Skizze, wo Pupille/Objektiv, LED und PIR sitzen.
 
 ## 6. Energiebilanz
 - Phase 1 (USB-C): welches Netzteil (Watt/Ampere)?
@@ -128,8 +114,7 @@ jeweils mit **"So prüfst du, dass es geklappt hat"**.
 - [ ] Empfohlene Variante steht fest und ist begründet
 - [ ] Einkaufsliste Phase 1 ist bestellfertig (inkl. Werkzeug), Phase 2 separat
 - [ ] Verbindungsplan und Bauanleitung sind für einen Laien nachvollziehbar
-- [ ] Druckvorlage für die transparente Motivplatte + Bezugsquelle stehen
-- [ ] Ornament-Auge-Motiv-Einsatz + Motiv-Vorlage liegen druckfertig vor
+- [ ] Druckvorlage (SVG/PDF) für die transparente Motivplatte liegt vor, Kamerabild durch die Platte ist geklärt
 - [ ] Druckfertige STL- und STEP-Dateien für alle Halterungen liegen vor, inkl. Testteil,
       Druckeinstellungen und Baugruppen-Ansicht ohne Kollisionen
 - [ ] Zusammenfassung "Hardware-Entscheidungen für Etappe 2" (Board, Pins, Sensoren, Kamera)

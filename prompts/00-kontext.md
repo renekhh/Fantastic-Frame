@@ -81,42 +81,30 @@
   (inkl. Zubehör wie Lötzinn, Ablage) mit Bezugsquelle.
 
 ## Kamera zentral im Motiv (Gestaltungsidee)
-- Die Kamera sitzt **in der Mitte des Rahmens**. Das Objektiv wird **Teil des Motivs**,
-  z. B. das **Auge eines Zyklopen**, die Pupille eines Auges, ein Planet/Mond, das Objektiv
-  einer gezeichneten Kamera, ein Bullauge, ein Roboter-Auge …
-- Das Motiv kann sein:
-  - ein **bedrucktes Bild** auf der Frontplatte mit Loch für das Objektiv, und/oder
-  - ein **3D-gedrucktes Relief-Motiv** (wie die vorhandenen Vereinslogo-Einsätze), in dem das
-    Objektiv als Auge sitzt – gern **mehrfarbig** druckbar.
-- **Favorit / Stilreferenz: "mystisches Ornament-Auge"** – ein einzelnes, realistisches Auge
-  mit **leuchtend türkis-blauer Iris**, umrahmt von **goldener, symmetrischer Ornamentik**
-  (spitz zulaufende Mandel-/Rautenform, Strahlen, Filigran) auf **schwarzem Hintergrund**.
-  Die **schwarze Pupille ist das Kameraobjektiv** – die dunkle Linse fällt dort nicht auf.
-  → Wir gestalten ein **eigenes Motiv in diesem Stil**, keine Kopie eines fremden Kunstwerks
-  (Urheberrecht, v. a. falls die Fanbox später weitergegeben wird).
-  Ideen zur Integration: **LED-Ring um die Pupille** als "leuchtende Iris" = Aufnahme-Anzeige;
-  PIR-Sensor im oberen Ornament-Juwel; Status-LED in der unteren Spitze.
-- **Variante 2 / Stilreferenz: "fotorealistisches Makro-Auge"** – ein Auge in Nahaufnahme füllt
-  das Bild (Wimpern, Lid, detailreiche bernstein-/grünbraune Iris, **große schwarze Pupille**).
-  Die Pupille ist viel größer als das Objektiv → das Objektiv sitzt **unsichtbar mitten in der
-  schwarzen Pupille**. Idee: Der **weiße Lichtreflex** im Auge ist die **Aufnahme-LED**.
-  Umsetzung als **hochaufgelöster Fotodruck** (3D-Druck kann das nicht fotorealistisch). Bildquelle: eigenes Foto, lizenziertes Stockfoto oder KI-generiert –
-  keine fremden Bilder ohne Lizenz.
-- Für beide Varianten gilt: **Objektiv = Pupille, Position immer gleich (Bildmitte)**.
-- **Geplante Umsetzung der Motive: Druck auf eine transparente Platte** (statt der bisherigen
-  0,5-mm-Frontplatte), damit auch **fotorealistische Motive** möglich sind. Platz laut STEP:
-  Tasche **226,4 × 226,4 mm**, Plattenauflage bei Z +1,14, Rahmen-Innenwand bis ca. Z +4,7
-  → Platten bis ca. **3 mm** Dicke liegen noch innerhalb der Rahmenkante (Annahme, prüfen).
-  Wichtig dabei:
-  - **Klares, unbedrucktes Fenster** (oder Bohrung) genau vor dem Objektiv, damit das Kamerabild
-    nicht leidet; Objektiv mit **schwarzer Schaumstoff-Dichtung** direkt an die Platte, damit
-    keine Spiegelungen/Streulicht (auch von der LED) ins Bild fallen.
-  - Druck mit **weißer Grundierung** hinter dem Motiv, sonst scheint das Innere durch.
-  - Option: Motiv teilweise **hinterleuchten** (z. B. Iris leuchtet als Aufnahme-Anzeige).
-- **Wechselbare Motive**: Kamera bleibt fest montiert, nur der Motiv-Einsatz wird getauscht
-  (gleiches Befestigungsprinzip wie die Logo-Einsätze, Objektivposition bei allen Motiven gleich).
-- Bewegungssensor (PIR) und Aufnahme-LED möglichst **ebenfalls ins Motiv integrieren**
-  (z. B. LED als zweites Auge/Nase/Stern, PIR als Detail) oder dezent in der Rahmenkante.
+- Die Kamera sitzt **in der Mitte des Rahmens**. Das Objektiv wird **Teil des Motivs** –
+  typischerweise die **Pupille eines Auges** (weitere Ideen: Zyklop, Planet/Mond, Bullauge,
+  Roboter-Auge …). **Objektivposition ist bei allen Motiven gleich (Bildmitte).**
+- **Motive werden ausschließlich auf eine transparente Platte gedruckt** – damit haben wir
+  bereits Erfahrung. **Kein 3D-gedrucktes Relief-Motiv.** Unser bisheriges Verfahren:
+  `[OFFEN: Plattenmaterial, Dicke, Druckverfahren/Dienstleister]`.
+- Platz laut STEP: Tasche **226,4 × 226,4 mm**, Plattenauflage bei Z +1,14, Rahmen-Innenwand
+  bis ca. Z +4,7 → Platten bis ca. **3 mm** Dicke liegen innerhalb der Rahmenkante
+  (Annahme, am Bauteil prüfen).
+- **Stilreferenzen** (eigene Motive in diesem Stil, keine Kopie fremder Werke):
+  1. **Mystisches Ornament-Auge:** türkis-blaue Iris, goldene symmetrische Ornamentik
+     (Mandel-/Rautenform, Strahlen, Filigran) auf schwarzem Hintergrund.
+  2. **Fotorealistisches Makro-Auge:** Nahaufnahme mit Wimpern, Lid, detailreicher Iris und
+     **großer schwarzer Pupille**; der **weiße Lichtreflex** im Auge könnte die Aufnahme-LED sein.
+  Bildquelle: eigenes Foto, lizenziertes Stockfoto oder KI-generiert.
+- Wichtig für die Kamera hinter der Platte:
+  - **Klares, unbedrucktes Fenster** (oder Bohrung) genau vor dem Objektiv.
+  - Objektiv mit **schwarzer Schaumstoff-Dichtung** direkt an der Platte – keine Spiegelungen
+    oder Streulicht (auch von der LED) im Kamerabild.
+  - **Weiße Grundierung** hinter dem Motiv, damit das Innere nicht durchscheint – außer an
+    Stellen, die **hinterleuchtet** werden sollen (z. B. Iris leuchtet als Aufnahme-Anzeige).
+- **Wechselbare Motive:** Kamera bleibt fest montiert, nur die Platte wird getauscht.
+- Bewegungssensor (PIR) und Aufnahme-LED möglichst **ins Motiv integrieren** (eigenes Fenster in
+  der Platte) oder dezent in der Rahmenkante.
 
 ## Aufnahme-Kontrollleuchte (LED)
 - Eine **sichtbare LED in der Front** zeigt an, ob die Kamera gerade **aufnimmt oder streamt**.
