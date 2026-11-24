@@ -74,6 +74,14 @@
   - ein **bedrucktes Bild** auf der Frontplatte mit Loch für das Objektiv, und/oder
   - ein **3D-gedrucktes Relief-Motiv** (wie die vorhandenen Vereinslogo-Einsätze), in dem das
     Objektiv als Auge sitzt – gern **mehrfarbig** druckbar.
+- **Favorit / Stilreferenz: "mystisches Ornament-Auge"** – ein einzelnes, realistisches Auge
+  mit **leuchtend türkis-blauer Iris**, umrahmt von **goldener, symmetrischer Ornamentik**
+  (spitz zulaufende Mandel-/Rautenform, Strahlen, Filigran) auf **schwarzem Hintergrund**.
+  Die **schwarze Pupille ist das Kameraobjektiv** – die dunkle Linse fällt dort nicht auf.
+  → Wir gestalten ein **eigenes Motiv in diesem Stil**, keine Kopie eines fremden Kunstwerks
+  (Urheberrecht, v. a. falls die Fanbox später weitergegeben wird).
+  Ideen zur Integration: **LED-Ring um die Pupille** als "leuchtende Iris" = Aufnahme-Anzeige;
+  PIR-Sensor im oberen Ornament-Juwel; Status-LED in der unteren Spitze.
 - **Wechselbare Motive**: Kamera bleibt fest montiert, nur der Motiv-Einsatz wird getauscht
   (gleiches Befestigungsprinzip wie die Logo-Einsätze, Objektivposition bei allen Motiven gleich).
 - Bewegungssensor (PIR) und Aufnahme-LED möglichst **ebenfalls ins Motiv integrieren**

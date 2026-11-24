@@ -87,9 +87,15 @@ gedruckten Halterungen** befestigt.
 - Wähle ein Kameramodul/Objektiv, das gut als "Auge" wirkt (Durchmesser, Farbe der Linse),
   und einen passenden **Bildwinkel** für einen Raum, wenn der Rahmen an der Wand hängt
   (Weitwinkel ja/nein, Verzerrung).
-- Schlage **3–5 Motiv-Ideen** vor (z. B. Zyklop, Auge, Eule, Roboter, Weltraum), jeweils mit:
+- Schlage **3–5 Motiv-Ideen** vor (Favorit: **Ornament-Auge**, siehe Kontext; weitere z. B. Zyklop, Eule, Roboter, Weltraum), jeweils mit:
   wo sitzen Objektiv, PIR und LED im Motiv?
-- Liefere für **ein Motiv (Zyklop)** einen **druckfertigen Relief-Einsatz** (STL/STEP/3MF,
+- **Proportionen** für das Ornament-Auge: Pupille = Objektiv-Durchmesser, Iris-Durchmesser,
+  Gesamtgröße des Auges auf der Bildfläche (226 × 226 mm) – mit Skizze.
+- Prüfe, ob ein **kleiner RGB-LED-Ring** (z. B. WS2812, steckbar) um das Objektiv passt
+  (leuchtende Iris als Aufnahme-Anzeige), ohne Reflexe ins Kamerabild zu werfen.
+- Umsetzung vergleichen: (a) **Bilddruck** auf der Frontplatte, (b) **3D-Relief** mehrfarbig,
+  (c) **Kombination** (gedruckter Hintergrund + gedrucktes Relief-Auge). Empfehlung geben.
+- Liefere für **das Ornament-Auge** einen **druckfertigen Relief-Einsatz** (STL/STEP/3MF,
   mehrfarbig falls mein Drucker ein AMS hat: `[OFFEN: AMS ja/nein]`) plus eine **Vorlage**
   (Maße, Loch-Positionen), mit der ich eigene Motive gestalten oder als Bild drucken kann.
 - Befestigung des Motiv-Einsatzes so, dass er **ohne Werkzeug tauschbar** ist und die Kamera
@@ -108,7 +114,7 @@ jeweils mit **"So prüfst du, dass es geklappt hat"**.
 - [ ] Empfohlene Variante steht fest und ist begründet
 - [ ] Einkaufsliste Phase 1 ist bestellfertig (inkl. Werkzeug), Phase 2 separat
 - [ ] Verbindungsplan und Bauanleitung sind für einen Laien nachvollziehbar
-- [ ] Zyklopen-Motiv-Einsatz + Motiv-Vorlage liegen druckfertig vor
+- [ ] Ornament-Auge-Motiv-Einsatz + Motiv-Vorlage liegen druckfertig vor
 - [ ] Druckfertige STL- und STEP-Dateien für alle Halterungen liegen vor, inkl. Testteil,
       Druckeinstellungen und Baugruppen-Ansicht ohne Kollisionen
 - [ ] Zusammenfassung "Hardware-Entscheidungen für Etappe 2" (Board, Pins, Sensoren, Kamera)
